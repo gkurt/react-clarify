@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'KurtGokhan', // Usually your GitHub org/user name.
+  organizationName: 'gkurt', // Usually your GitHub org/user name.
   projectName: 'react-clarify', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/KurtGokhan/react-clarify/',
+          // editUrl: 'https://github.com/gkurt/react-clarify/',
 
           remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
         },
@@ -61,7 +61,7 @@ const config = {
         title: 'React Clarify',
         items: [
           {
-            href: 'https://github.com/KurtGokhan/react-clarify',
+            href: 'https://github.com/gkurt/react-clarify',
             label: 'GitHub',
             position: 'right',
           },
